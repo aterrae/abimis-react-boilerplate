@@ -6,7 +6,7 @@ First things first, install the Abimis framework by cloning the repo.
 When you are done with the installation of the framework and all of it's dependencies, install the package using:
 ```bash
 cd your_project_path
-npm run install -react-boilerplate
+npm run install -- -react-boilerplate
 ```
 Now you are all set to use the Abimis React boilerplate! Enjoy!
 
