@@ -4,8 +4,7 @@
   "main": [
     "src/js"
   ],
-  "bower": [],
-  "npm": [
+  "dependencies": [
     "react@\">=15.0.0 <16.0.0\"",
     "react-dom@\">=15.0.0 <16.0.0\"",
     "react-redux@\">=5.0.0 <6.0.0\"",
