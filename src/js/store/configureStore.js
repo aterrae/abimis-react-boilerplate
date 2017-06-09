@@ -5,7 +5,7 @@ import thunk from 'redux-thunk';
 
 export default function configureStore(initialState, history) {
     const router = routerMiddleware(history);
-    const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+    const composeEnhancers = process.env.NODE_ENV === 'development' ? require('remote-redux-devtools').composeWithDevTools({ port: 9001 }) : compose;
 
     const store = createStore(
         rootReducer,
