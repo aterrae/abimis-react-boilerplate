@@ -10,7 +10,7 @@ const store = configureStore(window.INITIAL_STATE);
 
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter children={getRoutes(store)} />
+        <Router children={getRoutes(store)} />
     </Provider>,
     document.getElementById("root")
 )
