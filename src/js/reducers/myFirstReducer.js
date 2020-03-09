@@ -3,7 +3,7 @@ const initialState = {};
 export default function myFirstReducer(state = initialState, action) {
 
     switch (action.type) {
-        case "":
+        case '':
             return Object.assign({}, state, {
 
             });
