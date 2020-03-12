@@ -1,3 +1,12 @@
+# https://help.github.com/articles/ignoring-files
+
+# os
 .DS_Store
-npm-debug.log
-node_modules
+
+# error
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dependencies
+/node_modules
