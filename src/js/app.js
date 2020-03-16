@@ -9,8 +9,8 @@ import getRoutes from './routes';
 const store = configureStore(window.INITIAL_STATE);
 
 ReactDOM.render(
-    <Provider store={store}>
-        <Router children={getRoutes(store)} />
-    </Provider>,
-    document.getElementById('root')
-)
+  <Provider store={store}>
+    <Router children={getRoutes(store)} />
+  </Provider>,
+  document.getElementById('root'),
+);
